@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtener Libros</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="obtain.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../ADD/add.html">Agregar libros</a>
+        <a href="../DELETE/delete.html">Eliminar libros</a>
+        <a href="obtain.html">Obtener libros</a>
+        <a href="../MODIFY/modify.html">Modificar libros</a>
+    </header>
+    <main>
+        <section>
+
+            <select name="" id="select">
+                <option value="date">fecha</option>
+                <option value="price">precio</option>
+                <option value="name">nombre</option>
+            </select>
+    
+            <table>
+
+                <thead>
+                    <tr>
+
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Fecha</th>
+                        <th>Precio</th>
+                    </tr>
+
+                </thead>
+
+                <tbody id="tableBooks"></tbody>
+            </table>
+            
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar un libro</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="add.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="add.html">Agregar libros</a>
+        <a href="../DELETE/delete.html">Eliminar libros</a>
+        <a href="../OBTAIN/obtain.html">Obtener libros</a>
+        <a href="../MODIFY/modify.html">Modificar libros</a>
+    </header>
+    <main>
+        <section>
+            <form action="" method="post" name="form" id="form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Nombre del libro" required><br><br>
+
+                <label for="date">Fecha:</label>
+                <input type="date" id="date" name="date" required><br><br>
+
+                <label for="price">Precio:</label>
+                <input type="text" id="price" name="price" placeholder="Precio" maxlength="6" required ><br><br>
+
+                <input type="submit" value="Agregar libro">
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>
